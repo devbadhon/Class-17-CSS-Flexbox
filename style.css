@@ -1,0 +1,106 @@
+/*  container er vhitor ai elements use kora jabe
+    1.display
+    2.flex-direction
+    3.flex-wrap
+    4.flex-flow
+    5.align-items // cros axis
+    6.align-content
+    7.justify-content // main axis
+    
+    item
+    1.flex-grow
+    2.flex-shrink
+    3.alex-basis
+    4.flex
+    5.aling-self
+    
+    */
+.container{
+    background-color: rgba(0, 255, 255, 0.438);
+    height: 30vh;
+    border: 3px solid black;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items:center; */
+    /* flex-direction:row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* align-items: flex-start; */
+}
+.container > * {
+    flex-basis: 100%;
+}
+.child-1{
+    min-height: 100px;
+    /* width: 33.33%; */
+    background-color: rgb(132, 0, 255);
+    color: aliceblue;
+    font-size: larger;
+}
+.child-2{
+    min-height: 150px;
+    /* width: 33.33%; */
+    background-color: rgb(150, 38, 255);
+    color: aliceblue;
+    font-size: larger;
+
+}
+.child-3{
+    min-height: 200px;
+    /* width: 33.33%; */
+    background-color: rgb(183, 105, 255);
+    color: aliceblue;
+    font-size: larger;
+
+}
+.child-4{
+    min-height: 200px;
+    /* width: 200px; */
+    background-color: rgb(201, 144, 255);
+    color: aliceblue;
+    font-size: larger;
+    order: -1;
+
+}
+.child-5{
+    min-height: 200px;
+    width: 33.33%;
+    background-color: rgb(217, 175, 255);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+
+}
+div.form{
+    width: 600px;
+    background: rgba(219, 168, 255, 0.645);
+    border: 1px solid;
+    padding: 10px;   
+}
+
+.form-ctrl{
+    display: flex;
+    padding: 10px; 
+}
+.form-ctrl input{
+    flex: 1;
+}
+
+section{
+    background: rgb(199, 139, 255);
+    border: 1px solid black;
+    width: 100vh;
+    display: flex;
+    padding: 10px;
+}
+main{
+    background: rgb(128, 0, 255);
+    color: aliceblue;
+    flex: 1;
+    text-align: center;
+}
+aside{
+    background: rgb(227, 205, 255);
+    color: rgb(0, 0, 0);
+    flex: 1;
+    text-align: center;
+}
